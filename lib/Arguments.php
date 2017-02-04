@@ -52,5 +52,6 @@ class Arguments {
     }
 
 }
+
 //Create the instance for the Routines.
 $instance = new Arguments();
