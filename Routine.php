@@ -23,6 +23,7 @@ class Routine extends Arguments {
         //Set the arguments passed to the Routine.php script.
         $this->setArguments($arguments);
         $this->shiftArguments();
+
         try {
             $routine = $this->getRoutine();
             $this->shiftArguments(); //Shift arguments so that we only give the routine the arguments after the name.
